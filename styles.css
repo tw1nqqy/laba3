@@ -1,0 +1,223 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: gainsboro;
+    font-family: "Chalkboard SE";
+}
+
+.header {
+    position: static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: 75px;
+    background-color: #A2A2D0;
+}
+
+.header_text {
+    font-weight: 900;
+    font-size: 40px;
+    color: #A2A2D0;
+    animation: pulse 2.5s infinite alternate;
+}
+
+.menu {
+    position: static;
+    display: block;
+    max-width: 16%;
+    padding-bottom: 2300px;
+    background-color: #DCD0FF;
+}
+
+.btn {
+    font-size: 20px;
+    font-family: "Chalkboard SE";
+    border: none;
+    transition: 0.5s;
+    background-color: inherit;
+    text-align: left;
+    height: 50px;
+    width: 100%;
+}
+
+.btn:hover {
+    background-color: #A2A2D0;
+    cursor: pointer;
+}
+
+#social_list {
+    display: none;
+}
+
+#social_list.show_social_list {
+    display: block
+}
+
+#projects_list {
+    display: none;
+}
+
+#projects_list.show_projects_list {
+    display: block;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+}
+
+a, a:active {
+    text-decoration: none;
+    color: black;
+}
+
+.hidden_btn {
+    font-size: 16px;
+    font-family: "Chalkboard SE";
+    border: none;
+    transition: 0.5s;
+    background-color: inherit;
+    text-align: left;
+    height: 50px;
+    width: 100%;
+}
+
+.hidden_btn:hover {
+    background-color: #A2A2D0;
+    cursor: pointer;
+}
+
+
+#preview {
+    top: 150px;
+    left: 22%;
+    width: 700px;
+    position: absolute;
+    opacity: 100%;
+    transition: 0.5s;
+}
+
+#kurokonobasket {
+    display: flex;
+}
+
+#basketball {
+    width: 900px;
+    display: flex;
+}
+
+#pharaoh {
+    width: 900px;
+    display: flex;
+}
+
+#preview.show_bio {
+    opacity: 0;
+}
+
+#bio {
+    top: 150px;
+    left: 22%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#bio.show_bio {
+    opacity: 100%;
+}
+
+#bio.show_bio:last-child{
+    volume: 100%;
+}
+
+.bio_first_string {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.avatar {
+    border: 5px solid #A2A2D0;
+    height: 200px;
+    margin-right: 135px;
+}
+
+.avatar2 {
+    border: 5px solid #A2A2D0;
+    height: 200px;
+    margin-right: 135px;
+}
+
+
+.short_info {
+    border: 5px solid #A2A2D0;
+    padding: 10px;
+}
+
+.what_i_can {
+    border: 5px solid #A2A2D0;
+    margin-bottom: 20px;
+    padding: 10px;
+    padding-right: 700px;
+}
+
+.favourites {
+    border: 5px solid #A2A2D0;
+    margin-bottom: 20px;
+    padding: 10px;
+    padding-right: 700px;
+}
+
+#me_vid {
+    volume: 0;
+}
+
+#open_bio.active {
+    background-color: #A2A2D0;
+}
+
+#open_social_list.active {
+    background-color: #A2A2D0;
+}
+
+#open_projects_list.active {
+    background-color: #A2A2D0;
+}
+
+.bottom {
+    position: static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: 75px;
+    background-color: #A2A2D0;
+}
+
+.bottom_text {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+@keyframes pulse {
+    100% {
+        text-shadow:
+            0 0 2px #fff,
+            0 0 4px #fff,
+            0 0 8px #fff,
+            0 0 15px #A2A2D0,
+            0 0 30px #A2A2D0,
+            0 0 40px #A2A2D0,
+            0 0 70px #A2A2D0,
+            0 0 100px #A2A2D0;
+    }
+}

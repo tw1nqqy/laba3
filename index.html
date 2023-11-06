@@ -1,0 +1,73 @@
+<!DOCTYPE html/>
+<html lang="en">
+<head>
+    <title>tw1nqqy</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width">
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+<div class="header">
+    <p class="header_text">tw1nqqy</p>
+</div>
+<div class="menu">
+    <button class="btn" id="open_bio" onclick="view_bio()">My bio</button>
+    <button class="btn" id="open_social_list" onclick="view_social_list()">My social</button>
+    <ul id="social_list">
+        <li><button class="hidden_btn" id="tg_link"><a class="social_link" href="https://t.me/baikalboi">Telegram</a></button></li>
+        <li><button class="hidden_btn" id="gh_link"><a class="social_link" href="https://github.com/tw1nqqy">GitHub</a></button></li>
+    </ul>
+    <button class="btn" id="open_projects_list" onclick="view_projects_list()">My projects</button>
+    <ul id="projects_list">
+        <li><button class="hidden_btn"><a class="project_link" href="https://github.com/tw1nqqy/tbot">Telegram Bot</a></button></li>
+        <li><button class="hidden_btn"><a class="project_link" href="https://github.com/tw1nqqy/laba1">Lab №1</a></button></li>
+        <li><button class="hidden_btn"><a class="project_link" href="https://github.com/tw1nqqy/laba2">Lab №2</a></button></li>
+        <li><button class="hidden_btn"><a class="project_link" href="https://github.com/tw1nqqy/laba3">Lab №3</a></button></li>
+    </ul>
+</div>
+<div id="preview">
+    <video id="kurokonobasket" src="preview.mp4" muted loop autoplay width="900px"></video>
+    <img id="basketball" src="basketball.jpg" alt="проебали">
+    <img id="pharaoh" src="pharaoh.jpg" alt="проебали">
+</div>
+<div id="bio">
+    <div class="bio_first_string">
+        <img class="avatar" src="avatar.jpg" alt="проебали">
+        <img class="avatar2" src="avatar2.jpg" alt="проебали">
+        <div class="short_info">
+            <p class="name">Schelkanov Ilya "tw1nqqy" Vitalyevich</p>
+            <p class="age">18 y.o.</p>
+            <p class="status">MTUCI's student</p>
+            <p class="status">BPE2302</p>
+        </div>
+    </div>
+    <div class="what_i_can">
+        <p>My skills</p>
+        <ul class="list_of_my_abilities">
+            <li>Novice Python Developer</li>
+            <li>Amateur basketball: passerer</li>
+            <li>Fingerstyle guitarist for 3 years</li>
+            <li>English level B2+</li>
+        </ul>
+    </div>
+    <div class="favourites">
+        <p>My hobbies</p>
+        <ul class="list_of_my_favourites">
+            <li>Family <3</li>
+            <li>Software developing</li>
+            <li>Basketball</li>
+            <li>Guitar</li>
+            <li>Sound engineering</li>
+        </ul>
+    </div>
+    <div class="photo">
+        <img id="me" src="me.jpg" alt="проебали">
+    </div>
+    <video id="me_video" src="me_vid.mp4" autoplay muted width="1000px"></video>
+</div>
+<div class="bottom">
+    <p class="bottom_text">2023</p>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
